@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=true">
+	<meta name="author" content="NosyMotorist"><meta name="description" content="A classic child's game powered by javascript" />
+	<title>Tic-Tac-Toe</title>
+</head>
+<body ONLOAD="init()" BGCOLOR="#CCCCCC" TEXT="#208020" style="background-image: url(../../images/ncshadow.jpg); background-repeat: no-repeat">
+<a href="../"><img style="border: 0px solid ; width: 240px; height: 60px;" alt="Go home" title="Nosy Motorist Mobile" src="../images/head.gif"></a><br>
+<font face="arial">
+<H4>
+<script type="text/javascript" src="./naughts.js"></script>
+<table border="0"><tr><td>
+<form action="index.php" name="grid" id="grid" method="post">
+<UL><table border="0"><tr><td ID="0" ONCLICK="flip(0)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="1" ONCLICK="flip(1)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="2" ONCLICK="flip(2)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+</tr>
+<tr><td ID="3" ONCLICK="flip(3)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="4" ONCLICK="flip(4)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="5" ONCLICK="flip(5)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+</tr>
+<tr><td ID="6" ONCLICK="flip(6)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="7" ONCLICK="flip(7)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+<td ID="8" ONCLICK="flip(8)"><img style="border: 0px solid ; width: 45px; height: 45px;" alt="blank" src="../images/0.gif"></td>
+</tr>
+</table>
+<br><center>
+<Label ID="fb">Player 1 go</label>
+<br><br>
+<input onclick="location.reload();" onfocus="this.style.color='#711'" onblur="this.style.color='#000'" value="New Game" id="reset" style="color: rgb(0, 0, 0);" type="reset" />
+</center></UL>
+</form>
+</td></tr></table>
+</H4>
+</font>
+</body>
+</html>
