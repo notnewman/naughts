@@ -8,9 +8,9 @@
 	var row1 = 0; var row2 = 0; var row3 = 0;
 	var col1 = 0; var col2 = 0; var col3 = 0;
 	var dia1 = 0; var dia2 = 0; var cat0 = 0;
-	var X = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='X' src='../images/2.gif'>";
-	var O = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='O' src='../images/1.gif'>";
-	var blank = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='blank' src='../images/0.gif'>";
+	var X = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='X' src='http://nosymotorist.com/images/2.gif'>";
+	var O = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='O' src='http://nosymotorist.com/images/1.gif'>";
+	var blank = "<img style='border: 0px solid ; width: 45px; height: 45px;' alt='blank' src='http://nosymotorist.com/images/0.gif'>";
 //
 function init(){
 	cell = Array(0,0,0,0,0,0,0,0,0);
