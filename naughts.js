@@ -89,7 +89,7 @@ function flip(side){
   }
   if ((player == 2)&&(winner == 0)&&(cat0 == 0)) {
     document.getElementById("fb").innerHTML="Thinking ..."; 
-    delay=setTimeout(function(){autoo()},2000);
+    delay=setTimeout(function(){autoo()},1000);
   }
   return null;}
 //
